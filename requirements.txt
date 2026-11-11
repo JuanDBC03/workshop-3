@@ -1,0 +1,25 @@
+# Workshop-3: Streaming ETL with Apache Kafka and Machine Learning
+# Core Dependencies
+
+# Data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data visualization (for EDA and model evaluation in notebooks)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning pipeline and evaluation
+scikit-learn>=1.3.0
+
+# Notebook and kernel stability support (especially on Windows)
+ipykernel>=6.25.0
+pywin32>=306
+
+# Apache Kafka client for Python
+# Note: kafka-python-ng is a drop-in replacement fork of kafka-python compatible with Python 3.12+
+kafka-python-ng>=2.2.2
+
+# PostgreSQL database driver and environment variable loader
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.0
